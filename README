@@ -1,10 +1,8 @@
 
-This small code set is intended to evaluate a candidates ability to following instructions,
-express their problem resolving and communicate via documentation using both comments
-and POD. There should not be any reason this code cannot pass the strictest of perlcritic
-evaluation.
+This small code set is intended to evaluate a candidates ability to follow instructions,
+express their problem resolving and communicate via documentation using both comments and POD.
+There should not be any reason this code cannot pass the strictest of perlcritic evaluation.
 
 This coding exam will require samples from the samples repo where this exam was found.
 
-Good luck,
-Ancient Wizard!
+Good luck, Ancient Wizard!
