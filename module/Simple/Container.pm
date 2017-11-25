@@ -20,12 +20,12 @@ use 5.010001;
 use strict;
 use warnings;
 
-## This class inherits from Returned, make it so.
+## This class inherits from the Returned class, make it so.
 
 ## Define a constructor that uses inheritance as the base constuctor
 sub new
 {
-  ## Make this correct!
+  ## Make this correct! Use the Returned classes constructor
   my $self = ();
 
   ## Init class as required

@@ -1,8 +1,24 @@
 
-This small code set is intended to evaluate a candidates ability to follow instructions,
-express their problem resolving and communicate via documentation using both comments and POD.
-There should not be any reason this code cannot pass the strictest of perlcritic evaluation.
+This small code set is intended to evaluate a programming candidates ability to follow instructions,
+express their problem resolving ability and communicate the solution via documentation using both
+comments and POD. There should not be any reason this code cannot pass the strictest of perlcritic
+evaluation. You'll be successful if you understand OO programming and Perl's way of doing so.
 
-This coding exam will require files from the samples/ repo where this exam was found.
+TIPS:
+ - Consider this a real exam, the code you submit will be critically examined
+   for style, readability and reuse
+ - You'll find instructions in the code explaining what needs to be accomplished,
+   they should be replaced with professional comments expected to be included in
+   a real module.
+ - Avoid commentary and personal remarks, the submission will be reviewed for
+   professionalism. If you have questions send then by email because we want you
+   to be successful. We're happy to explain anything.
+ - Polish is everything!
+ - We're not interested in small code, the first bullet above is most important
+ - Show off your knowledge of design patterns
+ - Complete the coding and POD of the Simple::Container module
+ - Complete the test set in t_C_Simple_Container.pl
+
+This coding exam will require files from the samples/ git repo where this exam was found.
 
 Good luck, Ancient Wizard!
