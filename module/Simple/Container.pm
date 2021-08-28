@@ -8,8 +8,10 @@
 ##    - Comments, how you communicate your work
 ##    - POD, can you?
 ##
-##  It is your job to complete the methods making this class functional.
-##  Consider code reuse, private methods and functions.
+##  It is your assignment to complete the methods making this class functional.
+##  - Consider code reuse, readability, private methods and functions.
+##  - Comments fro clarity are always useful.
+##  - Add POD to cmake the module complete.
 ##
 
 ## Define this package?
@@ -49,12 +51,12 @@ sub include
 
 ## This method tests if something is already a member of the container.
 ##  For example: returns TRUE(1) if the argument is a member of the container
-##    otherwise returns FALSE
+##    otherwise returns FALSE(0)
 sub includes
 {
 }
 
-## This member excludes a member from the container if its a member
+## This method excludes a member from the container if its a member
 ##  otherwide throws an exception.
 sub exclude
 {
@@ -116,6 +118,7 @@ __END__
 
 #+ -----------------
 ## POD - complete the POD
+##     - I recommend using perlcritic to check your work
 
 =pod
 
