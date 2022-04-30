@@ -1,7 +1,7 @@
 
 #+ ---------------------------------------------------------------------------------------------------
 ##
-##  This class is designed to test the coders understaning of:
+##  This class is designed to test the coders understanding of:
 ##    - Perl
 ##    - Perl OO
 ##    - Simple/standard design patterns
@@ -10,21 +10,23 @@
 ##
 ##  It is your assignment to complete the methods making this class functional.
 ##  - Consider code reuse, readability, private methods and functions.
-##  - Comments fro clarity are always useful.
-##  - Add POD to cmake the module complete.
+##  - If successful your code should be self-documenting based on the names used for identifiers. 
+##  - Comments for clarity are always useful.
+##  - Add POD to make the module complete.
+##  - Remove the comments I've provided as instructions, yes all of them
 ##
 
 ## Define this package?
 
 
 ## Place use statements here, Its been started for you
-use 5.010001;
+use 5.016003;
 use strict;
 use warnings;
 
 ## This class inherits from the Returned class, make it so.
 
-## Define a constructor that uses inheritance as the base constuctor
+## Define a constructor that uses inheritance as the base constructor
 sub new
 {
   ## Make this correct! Use the Returned classes constructor
@@ -35,7 +37,7 @@ sub new
   return $self;
 }
 
-## This is a container, the ->include method is how you add somehting
+## This is a container, the ->include method is how you add something
 ##  to this container. The container may only keep one of any unique object/value
 ##  For example: if were a number container a repeated number would be
 ##    throw an exception. Show me you know how this is done.
@@ -104,7 +106,8 @@ sub get_list
 
 ## Returns an array reference of the members, the consumer must not be able to
 ##  modify the containers membership list. The array is empty if
-##  when the container is empty.
+##  when the container is empty. Modifying this array must not allow the consumer
+##	to alter the state of this object. 
 sub get_array
 {
 }
